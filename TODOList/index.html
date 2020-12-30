@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TODO list</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Todo list</h1>
+  </header>
+  <main>
+    <section class="input-area">
+      <div class="check-all">
+        <span class="toggle-all">&#10003;</span>
+        <input type="checkbox" id="toggle" class="visually-hidden">
+      </div>
+      <input class="text-input" placeholder="What needs to be done?" />
+      <button class="add-button" id="addButton">Add</button>
+    </section>
+
+    <section>
+      <ul class="list-container">
+        <!-- <li>
+          <input type="checkbox">
+          <span class="checked">asd</span>
+          <input class="text-edit-input"/>
+          <div class="confirm-icon">&#10003;</div>
+          <div class="pencil-icon">&#9998;</div>
+          <div class="delete-icon">&#10005;</div>
+        </li> -->
+      </ul>
+    </section>
+
+    <footer>
+      <span class="todo-count"></span>
+      <div>
+        <button class="three-button" id="allButton">All</button>
+        <button class="three-button" id="activeButton">Active</button>
+        <button class="three-button" id="completedButton">Completed</button>
+      </div>
+      <button class="clear-button" id="clearButton">Clear all</button>
+    </footer>
+  </main>
+  <script src="scriptMVC.js"></script>
+</body>
+
+</html>
