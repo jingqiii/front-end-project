@@ -1,3 +1,4 @@
+Here is the requirement checklist:
 - [x] There should be a header showing icon and two tabs "HOME" and "LIKED LIST"
 - [x] The TAB should show an active style for current active tab
 - [x] There should be a dropdown select with categories "Popular", "Now playing", "Top rated" and "Up coming"
@@ -11,10 +12,11 @@
 - [x] The movie detail modal should show movie poster, movie title, movie overview, movie genres, movie rating and movie production companies logos
 - [x] There should a close icon on the top right allowing the user to close the modal.
 - [x] There should be a pagination section with a "prev", a "next" button and a text of current page and total page
-- [ ] Clicking on the next button will load next page of movies for current category
-- [ ] Clicking on the prev button will load prev page of movies for current category
+- [ ] **Clicking on the next button will load next page of movies for current category
+- [ ] **Clicking on the prev button will load prev page of movies for current category
 - [x] The perv button should be disabled when it is the first page
 - [x] The next button should be disabled when it is the last page
-- [ ] Choosing other category from the drop down should load the first page of movies for the selected category
+- [ ] **Choosing other category from the drop down should load the first page of movies for the selected category
 - [x] Clicking on the "LIKED LIST" in the header should list all liked movies
 - [x] Clicking the like button of the already like movie again should remove it from the like list
+
