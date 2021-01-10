@@ -1,4 +1,4 @@
-Here is the requirement checklist:
+### The requirement checklist, I finished 18/21, I will continuely working on the rest items...
 - [x] There should be a header showing icon and two tabs "HOME" and "LIKED LIST"
 - [x] The TAB should show an active style for current active tab
 - [x] There should be a dropdown select with categories "Popular", "Now playing", "Top rated" and "Up coming"
@@ -20,3 +20,4 @@ Here is the requirement checklist:
 - [x] Clicking on the "LIKED LIST" in the header should list all liked movies
 - [x] Clicking the like button of the already like movie again should remove it from the like list
 
+ 
