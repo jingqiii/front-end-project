@@ -161,6 +161,10 @@ nav .menu li a:hover {
   color: #3a3a3a;
 }
 
+.showcase-text strong:hover {
+  color: #01b4e4;
+}
+
 .showcase-icon {
   color: #3a3a3a;
   width: 100%;
