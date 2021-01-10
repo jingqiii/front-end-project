@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie List</title>
+    <link rel="stylesheet" href="movieWebStyle.css" />
+    <link rel="stylesheet" href="popupWindow.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+
+  <body>
+    <main>
+      <!-- navigation  -->
+      <nav>
+        <!-- logo -->
+        <a href="#" class="logo">
+          <img src="blue_square.svg" alt="movie logo" />
+        </a>
+        <!-- menu -->
+        <ul class="menu">
+          <li class="homePage"><a href="#">HOME</a></li>
+          <li class="favPage"><a href="#">LIKED LIST</a></li>
+        </ul>
+
+        <!-- search -->
+        <div class="search">
+          <input type="text" placeholder="Find your favourite movies..." />
+          <ion-icon name="search"></ion-icon>
+        </div>
+      </nav>
+
+      <!-- filter -->
+      <div class="filter-section">
+        <select name="" id="movie-filter">
+          <option value="popular">Popular</option>
+          <option value="now_playing">Now Playing</option>
+          <option value="top_rated">Top Rated</option>
+          <option value="upcoming">Upcoming</option>
+        </select>
+      </div>
+
+      <!-- page button -->
+      <section class="page-section">
+        <div class="page-button prev-button">
+          <button>Prev</button>
+        </div>
+        <div class="page-number">
+          <p class="carrier">1</p>
+          <p>/</p>
+          <p>20</p>
+        </div>
+        <div class="page-button next-button">
+          <button>Next</button>
+        </div>
+      </section>
+
+      <!-- showcase -->
+      <section>
+        <div class="showcase-container">
+          <ul class="showcase-container-ul">
+            <!-- 
+            <li class="showcase-box">
+              <div class="showcase-item">
+                <div class="showcase-post">
+                  <img src="movie-slide.jpg" alt="" />
+                </div>
+                <div class="showcase-text">
+                  <strong> soul </strong>
+                </div>
+                <div class="showcase-icon">
+                  <div class="star-section">
+                    <ion-icon name="star"></ion-icon>
+                    <p>7.3</p>
+                  </div>
+                  <button class="heartButton">
+                    <ion-icon name="heart-empty"></ion-icon>
+                    <ion-icon name="heart"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+
+      <!-- showcase-details -->
+      <section class="details-section">
+        <!-- <div class="details-container active">
+          <div class="close-button">
+            <button>&times;</button>
+          </div>
+          <div class="details-box">
+            <div class="details-post">
+              <img
+                src="https://i2.wp.com/ceklog.kindel.com/wp-content/uploads/2013/02/firefox_2018-07-10_07-50-11.png"
+                alt=""
+              />
+            </div>
+            <div class="details-para">
+              <h1>title</h1>
+              <title>title</title>
+              <span>overview</span>
+              <p class="details-discription">aaa</p>
+              <span>Genres</span>
+              <ul class="genres-list">
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+              </ul>
+              <span>Rating</span>
+              <p class="details-rated">7.3</p>
+              <span>Production Companies</span>
+              <ul>
+                <li>icon</li>
+                <li>icon</li>
+                <li>icon</li>
+                <li>icon</li>
+                <li>icon</li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="overlay"></div>
+      </section>
+    </main>
+    <script src="movieWebScript.js"></script>
+  </body>
+</html>
