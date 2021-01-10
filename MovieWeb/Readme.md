@@ -5,7 +5,7 @@
 - [x] Each page should have 20 movie card, 4 card in a row
 - [x] Each movie card should show the movie poster, movie title, movie rating with a star icon and outlined like icon
 - [x] Clicking the "like" icon will turn the icon from outlined to solid contained red.
-- [ ] Hovering on the movie title will turn title to another color
+- [x] Hovering on the movie title will turn title to another color
 - [x] Clicking the movie title in the card will open a movie detail modal
 - [x] The movie detail modal has a semi black transparent backdrop effect
 - [x] The movie detail modal should show movie poster, movie title, movie overview, movie genres, movie rating and movie production companies logos
